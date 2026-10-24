@@ -1,0 +1,18 @@
+[
+  {
+    "right_id": "SYN-WR-001",
+    "holder_alias": "Synthetic Facility A",
+    "licence_status": "active",
+    "valid_from": "2022-01-01",
+    "valid_to": "2025-12-31",
+    "permitted_quantity": null,
+    "permitted_unit": "m3/day",
+    "facility_aoi": {
+      "type": "Polygon",
+      "coordinates": [[[369900, 5699900], [370150, 5699900], [370150, 5700150], [369900, 5700150], [369900, 5699900]]]
+    },
+    "facility_aoi_crs": "EPSG:25832",
+    "source_url": "https://example.invalid/synthetic/wasserbuch/SYN-WR-001",
+    "source_name": "synthetic-water-right-fixture"
+  }
+]

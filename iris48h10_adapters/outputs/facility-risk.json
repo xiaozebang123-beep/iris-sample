@@ -1,0 +1,88 @@
+{
+  "analysis_crs": "EPSG:25832",
+  "evaluated_on": "2026-10-24",
+  "facilities": [
+    {
+      "analysis_crs": "EPSG:25832",
+      "facility_id": "SYN-FACILITY-001",
+      "facility_name": "Synthetic Industrial Facility A",
+      "geometry_qa": [],
+      "risk_layers": {
+        "mine_well_shaft": [
+          {
+            "conservative_distance_m": 46.655,
+            "feature_kind": "shaft",
+            "flags": [
+              {
+                "flag_code": "MINE_FEATURE_DATA_REVIEW",
+                "reason": "uncertain_shaft_position",
+                "source_name": "synthetic-mine-shaft-fixture",
+                "source_url": "https://example.invalid/synthetic/mines/SYN-SHAFT-001",
+                "status": "REVIEW_REQUIRED"
+              },
+              {
+                "flag_code": "MINE_FEATURE_PROXIMITY_REVIEW",
+                "reason": "conservative feature distance is within 1000.0 m of facility",
+                "source_name": "synthetic-mine-shaft-fixture",
+                "source_url": "https://example.invalid/synthetic/mines/SYN-SHAFT-001",
+                "status": "REVIEW_REQUIRED"
+              }
+            ],
+            "observed_distance_m": 121.655,
+            "review_reasons": [
+              "uncertain_shaft_position"
+            ],
+            "review_required": true,
+            "source_id": "SYN-SHAFT-001",
+            "source_name": "synthetic-mine-shaft-fixture",
+            "source_url": "https://example.invalid/synthetic/mines/SYN-SHAFT-001",
+            "uncertainty_m": 75.0
+          }
+        ],
+        "water_rights": [
+          {
+            "distance_m": 0.0,
+            "flags": [
+              {
+                "flag_code": "WATER_RIGHT_DATA_REVIEW",
+                "reason": "missing_permitted_quantity",
+                "source_name": "synthetic-water-right-fixture",
+                "source_url": "https://example.invalid/synthetic/wasserbuch/SYN-WR-001",
+                "status": "REVIEW_REQUIRED"
+              },
+              {
+                "flag_code": "WATER_RIGHT_DATA_REVIEW",
+                "reason": "licence_expired",
+                "source_name": "synthetic-water-right-fixture",
+                "source_url": "https://example.invalid/synthetic/wasserbuch/SYN-WR-001",
+                "status": "REVIEW_REQUIRED"
+              },
+              {
+                "flag_code": "WATER_RIGHT_PROXIMITY_REVIEW",
+                "reason": "water-right AOI is within 1000.0 m of facility",
+                "source_name": "synthetic-water-right-fixture",
+                "source_url": "https://example.invalid/synthetic/wasserbuch/SYN-WR-001",
+                "status": "REVIEW_REQUIRED"
+              }
+            ],
+            "review_reasons": [
+              "missing_permitted_quantity",
+              "licence_expired"
+            ],
+            "review_required": true,
+            "source_id": "SYN-WR-001",
+            "source_name": "synthetic-water-right-fixture",
+            "source_url": "https://example.invalid/synthetic/wasserbuch/SYN-WR-001"
+          }
+        ]
+      }
+    }
+  ],
+  "review_distance_m": 1000.0,
+  "schema_version": "1.0",
+  "source_limitations": [
+    "Fixtures are synthetic and are not real permits, mines, coordinates, or operational records.",
+    "A missing record must not be interpreted as proof that no water rights exist.",
+    "Flags are screening prompts for human review, not legal or engineering determinations."
+  ]
+}

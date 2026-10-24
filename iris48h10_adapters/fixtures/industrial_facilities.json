@@ -1,0 +1,11 @@
+[
+  {
+    "facility_id": "SYN-FACILITY-001",
+    "name": "Synthetic Industrial Facility A",
+    "crs": "EPSG:25832",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[370000, 5700000], [370100, 5700000], [370100, 5700100], [370000, 5700100], [370000, 5700000]]]
+    }
+  }
+]

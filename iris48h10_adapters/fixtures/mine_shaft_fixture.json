@@ -1,0 +1,15 @@
+[
+  {
+    "source_identifier": "SYN-SHAFT-001",
+    "feature_kind": "shaft",
+    "position": {"type": "Point", "coordinates": [370220, 5700120]},
+    "position_crs": "EPSG:25832",
+    "depth_m": 210,
+    "observation_date": "2024-11-30",
+    "data_reliability": "approximate",
+    "position_uncertain": true,
+    "uncertainty_m": 75,
+    "source_url": "https://example.invalid/synthetic/mines/SYN-SHAFT-001",
+    "source_name": "synthetic-mine-shaft-fixture"
+  }
+]
