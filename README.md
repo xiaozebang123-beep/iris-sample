@@ -1,117 +1,23 @@
-# 🏢 NRW Data Center Business Intelligence Platform
 
-### AI-Powered Geospatial Business Intelligence for Data Center Site Selection and Infrastructure Analysis
+# GitHub Learning Lab
 
-The NRW Data Center Business Intelligence Platform is an AI-powered decision support system that combines geospatial analysis, infrastructure intelligence, renewable energy data, market intelligence, and conversational AI into a single interactive dashboard.
+## About
 
-Built with **Python**, **PostgreSQL/PostGIS**, **GeoPandas**, **PyDeck**, **Streamlit**, and **OpenAI**, the platform enables users to evaluate data center locations through interactive GIS visualization, site scoring, and AI-assisted insights.
+This repository is my hands-on workspace for learning Git and GitHub.
 
----
+## Learning Goals
 
-## Table of Contents
+- Understand repositories and commits.
+- Learn branches and pull requests.
+- Practice Git version control.
+- Build and share geospatial development projects.
 
-- [Overview](#overview)
-- [Dashboard Preview](#dashboard-preview)
-- [Key Features](#key-features)
-- [System Architecture](#system-architecture)
-- [How It Works](#how-it-works)
-- [Dashboard Modules](#dashboard-modules)
-- [AI Advisor](#ai-advisor)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Running the Dashboard](#running-the-dashboard)
-- [Project Status](#current-project-status)
-- [Roadmap](#roadmap)
-- [Vision](#vision)
+## Future Projects
 
-![Python]
-![PostgreSQL]
-![PostGIS]
-![Streamlit]
-![OpenAI]
-![Status]
+- Geospatial data validation.
+- Coordinate reference system tools.
+- Map visualization with Python.
 
-## Overview
-
-Selecting an optimal location for a modern data center requires much more than available land.
-
-Power infrastructure, renewable energy, electrical grid capacity, market activity, and surrounding infrastructure all influence the long-term viability of a site.
-
-The NRW Data Center Business Intelligence Platform integrates multiple public infrastructure datasets into a unified PostgreSQL/PostGIS database and provides an interactive AI-powered dashboard for analyzing, comparing, and evaluating potential data center locations.
-
-The platform combines:
-
-- Geospatial Intelligence
-- Infrastructure Analysis
-- Site Scoring
-- Market Intelligence
-- AI-assisted Decision Support
-
-# Key Features
-
-## GIS Intelligence
-
-✔ Interactive GIS Infrastructure Map
-
-✔ Data Center Visualization
-
-✔ High Voltage Substations
-
-✔ Transformers
-
-✔ Transmission Lines
-
-✔ Renewable Energy Assets
-
----
-
-## Business Intelligence
-
-✔ KPI Dashboard
-
-✔ Site Intelligence
-
-✔ Site Score
-
-✔ Market Intelligence
-
-✔ News Intelligence
-
-✔ Spatial Infrastructure Analysis
-
----
-
-## Artificial Intelligence
-
-✔ AI Advisor
-
-✔ Natural Language Queries
-
-✔ Executive Infrastructure Summaries
-
-✔ Context-aware Responses
-
-✔ Retrieval-Augmented Generation (RAG)
-
----
-
-## Spatial Intelligence
-
-✔ Power Readiness Analysis
-
-✔ Renewable Energy Analysis
-
-✔ Infrastructure Distance Calculations
-
-✔ Land Value Integration
-
-✔ Site Ranking
-
-# System Architecture
-
-```mermaid
-flowchart TD
 
 A[External Data Sources]
 
